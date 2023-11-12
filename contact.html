@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <style>
+            
+    body {
+        background-color: lightgray;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+</style>
+  <title>Contact Information</title>
+</head>
+<body>
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="student.html" class="nav__logo" style="color: purple;">JUSTINE</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="about.html" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="skills.html" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="work.html" class="nav__link">Hobbies</a></li>
+                    <li class="nav__item"><a href="contact.html" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+     
+    <br><br>
+  <div class="container text-center mt-5">
+    <h2>Contact Information</h2>
+    <br><br>
+
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header" id="headingEmail">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseEmail" aria-expanded="true" aria-controls="collapseEmail">
+              EMAIL
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseEmail" class="collapse show" aria-labelledby="headingEmail" data-parent="#accordion">
+          <div class="card-body">
+            <strong>Email:</strong> justineferrer.basc@gmail.com
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingPhone">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapsePhone" aria-expanded="false" aria-controls="collapsePhone">
+              PHONE
+            </button>
+          </h5>
+        </div>
+        <div id="collapsePhone" class="collapse" aria-labelledby="headingPhone" data-parent="#accordion">
+          <div class="card-body">
+            <strong>Phone:</strong> +639613033672 <br>      +639554418264
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="headingAddress">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseAddress" aria-expanded="false" aria-controls="collapseAddress">
+              ADDRESS
+            </button>
+          </h5>
+        </div>
+        <div id="collapseAddress" class="collapse" aria-labelledby="headingAddress" data-parent="#accordion">
+          <div class="card-body">
+            <strong>Address:</strong> #291 Balubaran Street Balaong San Miguel, Bulacan
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
